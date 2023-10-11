@@ -1,0 +1,28 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main > *{
+    border: black .5rem solid;
+    margin-bottom: 1rem;
+}
+
+header{
+    background-color: cyan;
+    height: 200px;
+    width: 70%;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header:hover h1{
+    color: darkblue;
+}
